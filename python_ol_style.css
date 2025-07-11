@@ -1,0 +1,213 @@
+body {
+    font-family: calibri;
+    margin: 0px;
+    background: #262626;
+    width: 1280px;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    box-shadow: 0 5px 15px 0 #000;
+    background: #000000;
+    width: 1280px;
+    height: 100px;
+}
+
+.logo {
+    width: 132px;
+    height: 65px;
+    margin: 17px 0px 0px 17px;
+}
+
+.course, .online-lesson, .book {
+    position: relative;
+    bottom: 22px;
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.online-lesson {
+    color: #00ff37;
+}
+
+.sign_up {
+    position: relative;
+    bottom: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15px;
+    width: 190px;
+    height: 41px;
+    box-shadow: 0 5px 15px 0 #00ff37;
+    background: #000;
+    padding: 3px 9px 3px 9px;
+    margin-left: 360px;
+}
+
+.sign_up:focus, .sign_in:focus {
+    transition: 0.3s;
+    color: #00ff37;
+    box-shadow: inset 0 5px 15px 0 #00ff37;
+    top: -20px;
+}
+
+.sign_in {
+    position: relative;
+    bottom: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15px;
+    width: 190px;
+    height: 41px;
+    box-shadow: 0 5px 15px 0 #00ff37;
+    background: #000;
+    padding: 3px 9px 3px 9px;
+    margin-left: 40px;
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+.title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 58px;
+    text-align: center;
+}
+
+.onle {
+    color: #00ff37;
+}
+
+.subtext {
+    margin-top: 58px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 5px 15px 0 #00ff37;
+    background: #000;
+    padding: 0px 5px 5px 5px;
+    position: relative;
+}
+
+.button:focus {
+    transition: 0.3s;
+    color: #00ff37;
+    box-shadow: inset 0 5px 15px 0 #00ff37;
+    top: 5px;
+}
+
+.online {
+    position: relative;
+    top: 62px;
+    left: 47px;
+    border-radius: 15px;
+    width: 1186px;
+    height: 528px;
+    box-shadow: 5px 5px 15px 0 #00ff37;
+    background-color: #000;
+}
+
+.area {
+    position: relative;
+    top: 95px;
+    left: 110px;
+    width: 332px;
+}
+
+.conf_name, .password {
+    height: 48px;
+    margin-bottom: 77px;
+    width: 666px;
+}
+
+.conf_name p {
+    position: relative;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+}
+
+.password p {
+    position: relative;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    left: 80px;
+}
+
+.conf_name div, .password div {
+    position: relative;
+    top: -75px; 
+    left: 299px;
+    border-radius: 5px;
+    width: 367px;
+    height: 48px;
+    background: #1e1e1e;
+}
+
+.enter {
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 #00ff37;
+    background: #000;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+    position: relative;
+    left: 421px;
+}
+
+.enter:focus {
+    transition: 0.3s;
+    color: #00ff37;
+    box-shadow: inset 0 5px 15px 0 #00ff37;
+    top: 10px;
+}
+
+footer {
+    box-shadow: 0px -5px 15px black;
+    position: relative;
+    top: 270px;
+    padding-top: 28px;
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/68700f2f45dbe.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1280px;
+    height: 355px;
+}
+
+footer p {
+    margin: 19px 0px 0px 54px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.share {
+    color: #00ff37; 
+    text-decoration: none;
+}
+
+.news {
+    margin-left: 30px;
+    margin-top: 22px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0 #00ff37;
+}
+
