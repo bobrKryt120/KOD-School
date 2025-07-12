@@ -25,7 +25,7 @@ header {
     position: relative;
     bottom: 22px;
     text-decoration: none;
-    left: 44px;
+    margin-left: 44px;
     font-size: 24px;
     color: #fff;
 }
@@ -142,7 +142,7 @@ ol {
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
-} 
+}
 
 .top h1 {
     font-weight: 500;
@@ -290,7 +290,7 @@ footer p {
 }
 
 .share {
-    color: #0048FF; 
+    color: #0048FF;
     text-decoration: none;
 }
 
