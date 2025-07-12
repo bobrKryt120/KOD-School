@@ -154,7 +154,7 @@ main {
 
 .conf_name div, .password div {
     position: relative;
-    top: -75px; 
+    top: -75px;
     left: 299px;
     border-radius: 5px;
     width: 367px;
@@ -200,7 +200,7 @@ footer p {
 }
 
 .share {
-    color: #0048FF; 
+    color: #0048FF;
     text-decoration: none;
 }
 
@@ -210,4 +210,3 @@ footer p {
     border-radius: 30px;
     box-shadow: 0 5px 15px 0 #0048FF;
 }
-
