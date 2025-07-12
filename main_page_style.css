@@ -58,6 +58,77 @@ header {
     top: -20px;
 }
 
+aside {
+    position: fixed;
+    width: 200px;
+    display: flex;
+    top: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    z-index: 3;
+}
+
+.inf, .sign, .co, .sid {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #000000;
+    border: 6px groove #ffffff;
+    border-radius: 0px 30px 30px 0px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: -160px;
+}
+
+.inf:hover {
+    left: -6px;
+    color: #9500ff;
+    border: 6px groove #9500ff;
+    transition: 0.4s;
+}
+
+.sign:hover {
+    left: -6px;
+    color: #0048FF;
+    border: 6px groove #0048FF;
+    transition: 0.4s;
+}
+
+.co:hover {
+    left: -6px;
+    color: #f2ff00;
+    border: 6px groove #f2ff00;
+    transition: 0.4s;
+}
+
+.sid:hover {
+    left: -6px;
+    color: #00ff37;
+    border: 6px groove #00ff37;
+    transition: 0.4s;
+}
+
+.arrow {
+    position: fixed;
+    top: 600px;
+    left: 1100px;
+    z-index: 3;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.arrow:hover {
+    box-shadow: 0 5px 15px 0 #fff;
+}
+
+.arrow:focus {
+    box-shadow: inset 0 5px 15px 0 #fff;
+    top: 610px;
+    width: 65px;
+    height: 65px;
+}
+
 main {
     position: relative;
     top: 100px;
@@ -77,16 +148,79 @@ h1 {
     height: 550px;
     box-shadow: 5px 5px 15px 0 #fff;
     background: url("https://learn.logikaschool.com/uploads/student/5102028/68651f85bbac3.png") no-repeat;
-    margin: 0px 47px 0px 47px; 
+    margin: 0px 47px 0px 47px;
     padding: 10px;
 }
 
 .about_text {
     font-size: 32px;
     color: #fff;
-    width: 637px;
+    width: 597px;
     height: 271px;
     margin: 10px;
+    text-align: justify;
+}
+
+.about1 {
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/687284d6c3eef.png") no-repeat;
+    width: 1186px;
+    height: 675px;
+    box-shadow: -5px 5px 15px 0 #ffffff;
+    border-radius: 15px;
+    position: relative;
+    top: 71px;
+    left: 47px;
+}
+
+.about_text1 {
+    width: 588px;
+    height: 546px;
+    position: relative;
+    top: 20px;
+    left: 578px;
+}
+
+.about_text1 p,li {
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about2 {
+    position: relative;
+    top: 71px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_box {
+    background: url("https://learn.logikaschool.com/uploads/student/5102028/687284dbe924d.png") no-repeat;
+    border-radius: 30px;
+    width: 450px;
+    height: 495px;
+    box-shadow: 0 5px 15px 0 #fff;
+    margin: 71px 0px 71px 0px;
+}
+
+.about_box h2 {
+    position: relative;
+    top: -30px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.about_box p {
+    width: 398px;
+    height: 351px;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: justify;
+    position: relative;
+    top: -60px;
+    left: 20px;
 }
 
 h2 {
@@ -102,7 +236,7 @@ h2 {
     height: 675px;
     box-shadow: 5px 5px 15px 0 #fff;
     background: #000;
-    margin: 0px 47px 0px 47px; 
+    margin: 0px 47px 0px 47px;
     padding: 10px;
 }
 
@@ -156,7 +290,7 @@ h2 {
     top: 4px;
     left: 10px;
     font-size: 32px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .sign_up_button {
@@ -297,7 +431,7 @@ h2 {
 
 .pho {
     color: #000;
-} 
+}
 
 footer {
     box-shadow: 0px -5px 15px black;
@@ -317,7 +451,7 @@ footer p {
 }
 
 .share {
-    color: #727272; 
+    color: #727272;
     text-decoration: none;
 }
 
