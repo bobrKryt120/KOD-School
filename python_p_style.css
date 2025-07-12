@@ -134,19 +134,15 @@ ol {
 .tasks {
     position: relative;
     left: 270px;
-    top: -535px;
+    top: -705px;
     width: 975px;
-}
-
-.top {
-    margin-top: -70px;
 }
 
 .top p {
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
-} 
+}
 
 .top h1 {
     font-weight: 500;
@@ -294,7 +290,7 @@ footer p {
 }
 
 .share {
-    color: #00ff37; 
+    color: #00ff37;
     text-decoration: none;
 }
 
