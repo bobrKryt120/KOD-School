@@ -23,9 +23,9 @@ header {
 
 .course, .online-lesson, .book {
     position: relative;
+    bottom: 22px;
     text-decoration: none;
-    top: -150px
-    left: 44px;
+    margin-left: 44px;
     font-size: 24px;
     color: #fff;
 }
@@ -35,42 +35,40 @@ header {
 }
 
 .sign_up {
-    position: absolute;
+    position: relative;
     bottom: 25px;
     font-size: 24px;
     text-decoration: none;
     color: #fff;
     border-radius: 15px;
-    width: 160px;
-    height: 21px;
+    width: 190px;
+    height: 41px;
     box-shadow: 0 5px 15px 0 #9500ff;
     background: #000;
-    padding: 3px 9px 9px 3px;
-    left: 935px;
-    top: 30px;
+    padding: 3px 9px 3px 9px;
+    margin-left: 360px;
 }
 
 .sign_up:focus, .sign_in:focus {
     transition: 0.3s;
     color: #9500ff;
     box-shadow: inset 0 5px 15px 0 #9500ff;
-    top: 40px;
+    top: -20px;
 }
 
 .sign_in {
-    position: absolute;
+    position: relative;
     bottom: 25px;
     font-size: 24px;
     text-decoration: none;
     color: #fff;
     border-radius: 15px;
-    width: 90px;
-    height: 21px;
+    width: 190px;
+    height: 41px;
     box-shadow: 0 5px 15px 0 #9500ff;
     background: #000;
-    padding: 3px 9px 9px 3px;
-    left: 1165px;
-    top: 30px;
+    padding: 3px 9px 3px 9px;
+    margin-left: 40px;
 }
 
 main {
@@ -141,14 +139,14 @@ ol {
 }
 
 .top {
-    margin-top: -130px;
+    margin-top: -200px;
 }
 
 .top p {
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
-} 
+}
 
 .top h1 {
     font-weight: 500;
@@ -296,7 +294,7 @@ footer p {
 }
 
 .share {
-    color: #9500ff; 
+    color: #9500ff;
     text-decoration: none;
 }
 
