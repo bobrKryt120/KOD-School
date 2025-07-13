@@ -109,6 +109,74 @@ aside {
     transition: 0.4s;
 }
 
+.inf::after {
+    display: inline-block;
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873ea9ef21fd.png");
+    height: 25px;
+    width: 25px;
+    float: right;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+.inf:hover::after {
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873ec6ee408c.png");
+    transition: 0.4s;
+}
+
+.sign::after {
+    display: inline-block;
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873ed31b5901.png")
+    height: 25px;
+    width: 25px;
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 3px;
+}
+
+.sign:hover::after {
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873f0670a629.png");
+    transition: 0.4s;
+}
+
+.co:after {
+    display: inline-block;
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873e1f93c42c.png");
+    height: 25px;
+    width: 25px;
+    transform: scale(0.5);
+    float: right;
+    position: relative;
+    top: -17px;
+    right: 13px;
+}
+
+.co:hover::after {
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6872b5e0d9785.png");
+    transition: 0.4s;
+    transform: scale(0.5);
+}
+
+.sid:after {
+    display: inline-block;
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6873e20433205.png");
+    height: 25px;
+    width: 25px;
+    transform: scale(0.07);
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 15px;
+}
+
+.sid:hover::after {
+    content: url("https://learn.logikaschool.com/uploads/student/5102028/6872b5dcc0d77.png");
+    transform: scale(0.07);
+    transition: 0.4s;
+}
+
 .arrow {
     position: fixed;
     top: 600px;
