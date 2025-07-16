@@ -179,7 +179,7 @@ aside {
 
 .arrow {
     position: fixed;
-    top: 500px;
+    top: 600px;
     left: 1100px;
     z-index: 3;
     transition: 0.5s;
